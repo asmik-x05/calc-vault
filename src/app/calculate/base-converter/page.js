@@ -66,8 +66,8 @@ const page = () => {
             Convert numbers between different bases <br />
             (binary, octal, decimal, hexadecimal).
           </p>
-          <div className="flex gap-4 mb-4 justify-center font-medium">
-            <div>
+          <div className="grid gap-4 mb-4 font-medium">
+            <div className="grid grid-cols-2 items-center ">
               <label
                 htmlFor="base"
                 className=" text-gray-700 mb-2 mx-2 dark:text-gray-300"
@@ -85,7 +85,7 @@ const page = () => {
               </select>
             </div>
 
-            <div>
+            <div className="grid grid-cols-2 items-center ">
               <label
                 htmlFor="toBase"
                 className=" text-gray-700 mb-2 mx-2 dark:text-gray-300"

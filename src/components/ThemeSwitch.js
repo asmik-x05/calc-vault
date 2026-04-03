@@ -1,10 +1,19 @@
-import React from 'react'
-import { FaMoon } from 'react-icons/fa'
+"use client";
+import { toggleTheme } from "@/redux/userPreferences/userPreferenceSlice";
+import React from "react";
+import { FaMoon, FaSun } from "react-icons/fa";
+import { useDispatch, useSelector } from "react-redux";
 
 const ThemeSwitch = () => {
+  const dispatch = useDispatch();
+  const theme = useSelector((state) => state.userPreferences.theme);
   return (
-    <div className='cursor-pointer'><FaMoon /></div>
-  )
-}
-
-export default ThemeSwitch
+    <button
+      onClick={() => dispatch(toggleTheme())}
+      className="border-0 rounded-lg  cursor-pointer"
+    >
+      {theme === "dark" ? <FaSun className='text-gray-200'/> : <FaMoon />}
+    </button>
+  );
+};
+export default ThemeSwitch;

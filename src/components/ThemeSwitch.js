@@ -12,7 +12,7 @@ const ThemeSwitch = () => {
       onClick={() => dispatch(toggleTheme())}
       className="border-0 rounded-lg  cursor-pointer"
     >
-      {theme === "dark" ? <FaSun className='text-gray-200'/> : <FaMoon />}
+      {theme === "dark" ? <FaSun className='text-gray-200 outline-0 border-0'/> : <FaMoon className="outline-0 border-0" />}
     </button>
   );
 };

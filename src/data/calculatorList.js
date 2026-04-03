@@ -1,0 +1,73 @@
+export const calculatorCollection = [
+  {
+    id: 1,
+    title: "General Calculator",
+    path: "calculate/general-calculator",
+    description: "A general purpose simple calculator for basic operations.",
+    thumbnail: "",
+  },
+  {
+    id: 2,
+    title: "Base Converter",
+    path: "calculate/base-converter",
+    description: "Converts numbers between different numerical bases.",
+    thumbnail: "",
+  },
+  {
+    id: 3,
+    title: "Currency Converter",
+    path: "calculate/currency-converter",
+    description: "Converts currencies between different countries.",
+    thumbnail: "",
+  },
+  {
+    id: 4,
+    title: "Length Converter",
+    path: "calculate/length-area-volume-converter",
+    description: "Converts values for length, area, and volume units.",
+    thumbnail: "",
+  },
+  {
+    id: 5,
+    title: "Weight Converter",
+    path: "calculate/weight-converter",
+    description: "Converts values between different weight units.",
+    thumbnail: "",
+  },
+  {
+    id: 6,
+    title: "Hex to RGB Converter",
+    path: "calculate/hex-to-rgb-converter",
+    description: "Converts hexadecimal color codes into RGB values.",
+    thumbnail: "",
+  },
+  {
+    id: 7,
+    title: "Temperature Converter",
+    path: "calculate/temperature-converter",
+    description:
+      "Converts temperatures between Celsius, Fahrenheit, and Kelvin.",
+    thumbnail: "",
+  },
+  {
+    id: 8,
+    title: "Time Converter",
+    path: "calculate/time-converter",
+    description: "Converts values between different units of time.",
+    thumbnail: "",
+  },
+  {
+    id: 9,
+    title: "BMI Calculator",
+    path: "calculate/bmi-calculator",
+    description: "Calculates Body Mass Index (BMI) using height and weight.",
+    thumbnail: "",
+  },
+  {
+    id: 10,
+    title: "Interest Calculator",
+    path: "calculate/interest-calculator",
+    description: "Calculates simple and compound interest values.",
+    thumbnail: "",
+  },
+];

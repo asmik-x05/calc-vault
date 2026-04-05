@@ -51,20 +51,13 @@ export const calculatorCollection = [
   },
   {
     id: 8,
-    title: "Time Converter",
-    path: "calculate/time-converter",
-    description: "Converts values between different units of time.",
-    thumbnail: "",
-  },
-  {
-    id: 9,
     title: "BMI Calculator",
     path: "calculate/bmi-calculator",
     description: "Calculates Body Mass Index (BMI) using height and weight.",
     thumbnail: "",
   },
   {
-    id: 10,
+    id: 9,
     title: "Interest Calculator",
     path: "calculate/interest-calculator",
     description: "Calculates simple and compound interest values.",
